@@ -70,8 +70,8 @@ export default function ColorPicker({
             className={`color-swatch ${value === color.value ? "active" : ""}`}
             style={{
               backgroundColor: color.value,
-              ringColor: color.value,
               border: isLightColor(color.value) ? "2px solid #374151" : undefined,
+              boxShadow: value === color.value ? `0 0 0 2px ${color.value}` : undefined,
             }}
             title={getColorName(color.name)}
           />
