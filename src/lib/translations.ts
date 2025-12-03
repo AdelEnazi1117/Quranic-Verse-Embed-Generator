@@ -8,7 +8,7 @@ export const translations = {
   ar: {
     // Header
     appTitle: "مولد آيات القرآن",
-    appSubtitle: "أنشئ آيات قرآنية قابلة للتضمين",
+    appSubtitle: "أنشئ آيات قرآنية قابلة للتضمين في موقعك ومدونتك",
     howToUse: "كيفية الاستخدام",
 
     // Select Verse Section

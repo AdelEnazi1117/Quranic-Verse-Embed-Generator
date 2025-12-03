@@ -21,6 +21,9 @@ export const metadata: Metadata = {
     "عربي",
   ],
   authors: [{ name: "Quranic Embed Generator" }],
+  icons: {
+    icon: "/favicon.png",
+  },
   openGraph: {
     title: "مولد آيات القرآن | Quranic Verse Embed Generator",
     description:
