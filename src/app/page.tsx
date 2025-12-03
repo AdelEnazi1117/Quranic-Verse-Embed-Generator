@@ -725,7 +725,7 @@ export default function BuilderPage() {
               <p className="text-white font-medium">{t.developerName}</p>
               <div className="flex items-center gap-3 mt-3">
                 <a
-                  href="https://github.com/AdelEnazi"
+                  href="https://github.com/AdelEnazi1117"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-navy-400 hover:text-white transition-colors"
@@ -734,7 +734,7 @@ export default function BuilderPage() {
                   <FontAwesomeIcon icon={faGithub} className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://linkedin.com/in/AdelEnazi"
+                  href="https://www.linkedin.com/in/adelenazi"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-navy-400 hover:text-white transition-colors"
@@ -743,7 +743,7 @@ export default function BuilderPage() {
                   <FontAwesomeIcon icon={faLinkedin} className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://twitter.com/AdelEnazi"
+                  href="https://x.com/AdelEnizy"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-navy-400 hover:text-white transition-colors"
@@ -752,7 +752,7 @@ export default function BuilderPage() {
                   <FontAwesomeIcon icon={faXTwitter} className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://adelenazi.com"
+                  href="https://adelenazi.dev"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-navy-400 hover:text-white transition-colors"
