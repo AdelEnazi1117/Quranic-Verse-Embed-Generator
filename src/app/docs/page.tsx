@@ -142,7 +142,7 @@ export default function DocsPage() {
             </h2>
             <p className="text-navy-400 mb-4">{t.docSupportDesc}</p>
             <a
-              href="https://github.com/AdelEnazi1117/quranic-verse-embed"
+              href="https://github.com/AdelEnazi1117/Quranic-Verse-Embed-Generator"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-accent-orange hover:text-accent-gold transition-colors"
