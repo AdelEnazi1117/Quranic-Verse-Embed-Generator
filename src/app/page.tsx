@@ -770,7 +770,7 @@ export default function BuilderPage() {
               </p>
               <div className="space-y-2">
                 <a
-                  href="https://github.com/AdelEnazi/quranic-verse-embed"
+                  href="https://github.com/AdelEnazi1117/quranic-verse-embed"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-white hover:text-accent-orange transition-colors text-sm"

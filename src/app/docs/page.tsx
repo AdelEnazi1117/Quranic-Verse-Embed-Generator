@@ -53,7 +53,10 @@ export default function DocsPage() {
           {/* API Section */}
           <section className="bg-navy-900/50 rounded-xl p-6 border border-navy-800/50">
             <h2 className="text-xl font-semibold text-white mb-4 flex items-center gap-2">
-              <FontAwesomeIcon icon={faCode} className="w-5 h-5 text-accent-orange" />
+              <FontAwesomeIcon
+                icon={faCode}
+                className="w-5 h-5 text-accent-orange"
+              />
               {t.docApiSection}
             </h2>
             <p className="text-navy-400 mb-4">{t.docApiDesc}</p>
@@ -64,14 +67,20 @@ export default function DocsPage() {
               className="inline-flex items-center gap-2 text-accent-orange hover:text-accent-gold transition-colors"
             >
               api.alquran.cloud
-              <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="w-4 h-4" />
+              <FontAwesomeIcon
+                icon={faArrowUpRightFromSquare}
+                className="w-4 h-4"
+              />
             </a>
           </section>
 
           {/* Customization Section */}
           <section className="bg-navy-900/50 rounded-xl p-6 border border-navy-800/50">
             <h2 className="text-xl font-semibold text-white mb-4 flex items-center gap-2">
-              <FontAwesomeIcon icon={faPalette} className="w-5 h-5 text-accent-orange" />
+              <FontAwesomeIcon
+                icon={faPalette}
+                className="w-5 h-5 text-accent-orange"
+              />
               {t.docCustomization}
             </h2>
             <div className="space-y-4 text-navy-400">
@@ -80,7 +89,9 @@ export default function DocsPage() {
                 <p className="text-sm">{t.infoAccentColor}</p>
               </div>
               <div className="p-4 bg-navy-800/50 rounded-lg">
-                <h3 className="font-medium text-white mb-2">{t.backgroundColor}</h3>
+                <h3 className="font-medium text-white mb-2">
+                  {t.backgroundColor}
+                </h3>
                 <p className="text-sm">{t.infoBackgroundColor}</p>
               </div>
               <div className="p-4 bg-navy-800/50 rounded-lg">
@@ -88,23 +99,33 @@ export default function DocsPage() {
                 <p className="text-sm">{t.infoTextColor}</p>
               </div>
               <div className="p-4 bg-navy-800/50 rounded-lg">
-                <h3 className="font-medium text-white mb-2">{t.showTranslation}</h3>
+                <h3 className="font-medium text-white mb-2">
+                  {t.showTranslation}
+                </h3>
                 <p className="text-sm">{t.infoShowTranslation}</p>
               </div>
               <div className="p-4 bg-navy-800/50 rounded-lg">
-                <h3 className="font-medium text-white mb-2">{t.showReference}</h3>
+                <h3 className="font-medium text-white mb-2">
+                  {t.showReference}
+                </h3>
                 <p className="text-sm">{t.infoShowReference}</p>
               </div>
               <div className="p-4 bg-navy-800/50 rounded-lg">
-                <h3 className="font-medium text-white mb-2">{t.showVerseNumbers}</h3>
+                <h3 className="font-medium text-white mb-2">
+                  {t.showVerseNumbers}
+                </h3>
                 <p className="text-sm">{t.infoShowVerseNumbers}</p>
               </div>
               <div className="p-4 bg-navy-800/50 rounded-lg">
-                <h3 className="font-medium text-white mb-2">{t.showAccentLine}</h3>
+                <h3 className="font-medium text-white mb-2">
+                  {t.showAccentLine}
+                </h3>
                 <p className="text-sm">{t.infoShowAccentLine}</p>
               </div>
               <div className="p-4 bg-navy-800/50 rounded-lg">
-                <h3 className="font-medium text-white mb-2">{t.transparentBackground}</h3>
+                <h3 className="font-medium text-white mb-2">
+                  {t.transparentBackground}
+                </h3>
                 <p className="text-sm">{t.infoTransparentBg}</p>
               </div>
             </div>
@@ -113,18 +134,24 @@ export default function DocsPage() {
           {/* Support Section */}
           <section className="bg-navy-900/50 rounded-xl p-6 border border-navy-800/50">
             <h2 className="text-xl font-semibold text-white mb-4 flex items-center gap-2">
-              <FontAwesomeIcon icon={faCircleQuestion} className="w-5 h-5 text-accent-orange" />
+              <FontAwesomeIcon
+                icon={faCircleQuestion}
+                className="w-5 h-5 text-accent-orange"
+              />
               {t.docSupport}
             </h2>
             <p className="text-navy-400 mb-4">{t.docSupportDesc}</p>
             <a
-              href="https://github.com/AdelEnazi/quranic-verse-embed"
+              href="https://github.com/AdelEnazi1117/quranic-verse-embed"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-accent-orange hover:text-accent-gold transition-colors"
             >
               GitHub Repository
-              <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="w-4 h-4" />
+              <FontAwesomeIcon
+                icon={faArrowUpRightFromSquare}
+                className="w-4 h-4"
+              />
             </a>
           </section>
         </div>
