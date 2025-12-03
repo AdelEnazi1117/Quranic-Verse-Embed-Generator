@@ -173,10 +173,10 @@ Contributions are welcome! Please:
 
 **Adel Enazi** (عادل العنزي)
 
-- GitHub: https://github.com/AdelEnazi
-- LinkedIn: https://linkedin.com/in/AdelEnazi
-- Twitter/X: https://twitter.com/AdelEnazi
-- Website: https://adelenazi.com
+- GitHub: [https://github.com/AdelEnazi1117](https://github.com/AdelEnazi1117)
+- LinkedIn: [linkedin.com/in/adelenazi](https://www.linkedin.com/in/adelenazi/)
+- Twitter/X: [https://x.com/AdelEnizy](https://x.com/AdelEnizy)
+- Website: [https://adelenazi.dev](https://adelenazi.dev/)
 
 ---
 
@@ -189,9 +189,9 @@ MIT License - Feel free to use for any purpose.
 ## Acknowledgments
 
 - AlQuran Cloud (https://alquran.cloud/) for the free Quran API
-- Kitab Font for beautiful Quranic typography
-- Font Awesome for icons
-- The open-source community
+- [Kitab Font](https://github.com/nuqayah/kitab-font) for beautiful Quranic typography
+- [Font Awesome](https://fontawesome.com/v4/icons/) for icons
+- The open-source community ❤️❤️
 
 ---
 
