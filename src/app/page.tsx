@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCopy,
@@ -200,10 +201,12 @@ export default function BuilderPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-accent-orange to-accent-gold flex items-center justify-center">
-                <FontAwesomeIcon
-                  icon={faBookOpen}
-                  className="w-5 h-5 text-white"
+              <div className="relative w-10 h-10 rounded-lg overflow-hidden">
+                <Image
+                  src="/favicon.png"
+                  alt="Quranic Verse Embed Logo"
+                  fill
+                  className="object-cover"
                 />
               </div>
               <div>
